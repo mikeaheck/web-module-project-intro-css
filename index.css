@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@300&display=swap');
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+nav, .bottomnav{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    margin: 5%;
+}
+
+
+ header, section {
+    margin: 10%;
+} 
+
+.logo {
+    display:inline;
+    vertical-align: middle;
+}
+
+
+
+.logo img{
+    border-radius: 50%;
+    width: 25%;
+    vertical-align:middle;
+}
+
+.title {
+    width: 60%;
+    vertical-align:middle;
+    display: inline-block;
+    text-align: center;
+}
+
+h1, #p1 {
+    text-align: center;
+    width: 60%;
+    display: inline-block;
+}
+
+#p2 {
+    text-align: center;
+    width: 40%;
+    display: inline-block;
+}
+
+.para2 {
+    padding: .5em 1em;
+    background: #DDB9A3;
+    color: white;
+}
+
+.para3 img {
+    width: 100px;
+    margin: 2em auto;
+    display: block;
+}
+
+.para3 p{
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ 
+nav a, footer a {
+    padding:10px 20px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#plan {
+    background-color: #FF754E;
+    margin-left:0px;
+}
+
+#learn {
+    background-color: #5FD3EC;
+}
+
+#get {
+    background-color: #FFCD6A;
+    margin-right:0px;
+}
+
+footer img{
+    height: 8em;
+    width:100%;
+    object-fit:cover;
+}
+
+footer {
+    background-color: #F9E7DD;
+}
